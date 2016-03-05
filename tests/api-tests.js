@@ -13,7 +13,7 @@ suite('Api methods test', function () {
                     .on('success', function (data) {
 
                         assert(eval(unitConfig.api[testName]['condition']));
-                        done();
+                         done();
                     })
             });
         }
